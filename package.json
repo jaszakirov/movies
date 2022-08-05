@@ -1,0 +1,28 @@
+{
+  "name": "movies",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaszakirov/movies.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaszakirov/movies/issues"
+  },
+  "homepage": "https://github.com/jaszakirov/movies#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.6",
+    "logger": "^0.0.1",
+    "mongoose": "^6.5.0",
+    "uuid": "^8.3.2",
+    "uuidv4": "^6.2.13"
+  }
+}
